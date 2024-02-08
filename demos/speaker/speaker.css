@@ -3,15 +3,15 @@
 -----------------------------------------------------------------*/
 
 :root {
-	--cnvs-themecolor: #FD5D3D;
-	--cnvs-themecolor-rgb: 253, 93, 61;
+	--cnvs-themecolor: #27374D;
+	--cnvs-themecolor-rgb:7, 37, 65;
 	--cnvs-primary-font: 'paralucent-text', sans-serif;
 	--cnvs-body-font: 'paralucent', sans-serif;
 	--bs-bg-opacity: 1;
 }
 
 #header {
-	--cnvs-primary-menu-hover-color: #111;
+	--cnvs-primary-menu-hover-color: #526D82;
 }
 
 .is-expanded-menu .menu-link {
@@ -74,7 +74,7 @@
 
 .top-search-open .top-search-parent .header-misc> #top-cart {
 	opacity: 1;
-	color:#FFF
+	color:#ffffff
 }
 
 .dotted-bg {
