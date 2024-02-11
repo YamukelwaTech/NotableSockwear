@@ -3,10 +3,10 @@
 -----------------------------------------------------------------*/
 
 :root {
-	--cnvs-themecolor: #FD5D3D;
-	--cnvs-themecolor-rgb: 253, 93, 61;
-	--cnvs-primary-font: 'paralucent-text', sans-serif;
-	--cnvs-body-font: 'paralucent', sans-serif;
+	--cnvs-themecolor: #0E2954;
+	--cnvs-themecolor-rgb: 14, 41, 84;
+	--cnvs-primary-font: 'Protest Revolution', sans-serif;
+	--cnvs-body-font: 'Protest Revolution', sans-serif;
 	--bs-bg-opacity: 1;
 }
 
@@ -52,7 +52,7 @@
 }
 
 #logo a {
-	letter-spacing: -1px;
+	letter-spacing: -2px;
 }
 
 .button[class*=bg-opacity-]:hover {
@@ -78,11 +78,11 @@
 }
 
 .dotted-bg {
-	--cnvs-dotted-opacity: .7;
+	--cnvs-dotted-opacity: .5;
 	--cnvs-dotted-top: 0;
 	--cnvs-dotted-right: 0;
 	--cnvs-dotted-left: auto;
-	--cnvs-dotted-size: 190px;
+	--cnvs-dotted-size: 290px;
 }
 
 .dotted-bg.pos-left {
@@ -122,7 +122,7 @@
 	background-color: transparent;
 	font-size: 1rem;
 	font-family: var(--cnvs-primary-font) !important;
-	font-weight: 500 !important;
+	font-weight: 600 !important;
 }
 
 .noice-effect::before {
@@ -133,7 +133,7 @@
 	width: 300%;
 	height: 300%;
 	opacity: 0.6;
-	background-image: url(images/noise-paatern.png);
+	background-image: url(./images/noise.jpg);
 	background-repeat: repeat;
 	background-size: auto;
 	animation: noiceAnim 8s steps(10) infinite;
