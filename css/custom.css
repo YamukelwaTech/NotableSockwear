@@ -5,4 +5,7 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
-
+/* make the font thicker  */
+.body h1, p, h2, h4{
+	font-weight: 700;
+}
