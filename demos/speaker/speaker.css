@@ -3,8 +3,8 @@
 -----------------------------------------------------------------*/
 
 :root {
-	--cnvs-themecolor: #0E2954;
-	--cnvs-themecolor-rgb: 14, 41, 84;
+	--cnvs-themecolor: #7D0A0A;
+	--cnvs-themecolor-rgb: 191, 49, 49;
 	--cnvs-primary-font: 'Protest Revolution', sans-serif;
 	--cnvs-body-font: 'Protest Revolution', sans-serif;
 	--bs-bg-opacity: 1;
@@ -78,7 +78,8 @@
 }
 
 .dotted-bg {
-	--cnvs-dotted-opacity: .5;
+	/* dots visibility */
+	--cnvs-dotted-opacity: .8;
 	--cnvs-dotted-top: 0;
 	--cnvs-dotted-right: 0;
 	--cnvs-dotted-left: auto;
